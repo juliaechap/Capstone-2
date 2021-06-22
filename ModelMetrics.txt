@@ -1,0 +1,44 @@
+﻿Model Metrics: 
+
+
+(Data was processed using SMOTE prior to splitting)
+
+
+Random Forest model with the following: 
+
+
+* n_estimators: 2500 
+* min_samples_split: 5
+* max_features: ‘auto’
+* max_depth: 30 
+
+
+
+
+Features: 
+
+
+* Gender
+* Age 
+* Hypertension
+* Heart Disease 
+* Work Type
+* Residence Type
+* BMI
+* Average Glucose Level
+* Ever Married
+* Smoking Status 
+
+
+
+
+Performance Metrics: 
+
+
+ROC_AUC_SCORE: 0.9910524459907379
+
+
+True negative: 1447
+False positive: 28
+False negative: 88
+True positive 1354
